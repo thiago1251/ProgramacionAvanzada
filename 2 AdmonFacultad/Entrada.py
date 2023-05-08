@@ -1,5 +1,5 @@
 from Admon.AdmonFuentes import AdmonFuentes
-
+from Admon.AdmonProfesores import AdmonProfesores
 class Entrada:
 
     #Constuctor
@@ -29,6 +29,9 @@ class Entrada:
 
             elif opcion == 1:
                 AdmonFuentes()
+                
+            elif opcion == 2:
+                AdmonProfesores()
 
             else:
                 print('Esa opción NO existe..!!!')
